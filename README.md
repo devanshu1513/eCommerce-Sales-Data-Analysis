@@ -136,10 +136,12 @@ E-commerce-Sales-Data-Analysis/
 ├── payment_types.csv
 ├── review_scores.csv
 └── top_sellers.csv
+```
+
 ## Author
-Devanshu Kumar
+
+# Devanshu Kumar
 
 B.Tech — Chemical Science and Technology, IIT Patna
 
 - GitHub: github.com/devanshu1513
-```
