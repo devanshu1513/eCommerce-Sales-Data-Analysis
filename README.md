@@ -1,8 +1,6 @@
-# eCommerce Sales Data Analysis
-
 # E-commerce Sales Data Analysis
 
-## SQL + Python + Power BI
+### SQL + Python + Power BI
 
 An end-to-end e-commerce data analysis project using SQL, Python, and Power BI to analyze sales performance, customer behavior, product categories, payment methods, and delivery satisfaction.
 
@@ -17,9 +15,9 @@ An end-to-end e-commerce data analysis project using SQL, Python, and Power BI t
 
 ## Tools & Technologies
 
-- **MySQL** — SQL analysis, joins, aggregations, CTEs and window functions
-- **Python** — Pandas, NumPy, Matplotlib and Seaborn
-- **Power BI** — Interactive dashboard and business reporting
+- **MySQL** — SQL analysis, joins, aggregations, CTEs, and window functions
+- **Python** — Pandas, NumPy, Matplotlib, and Seaborn
+- **Power BI** — Interactive dashboards and business reporting
 - **Jupyter Notebook** — Exploratory data analysis
 
 ## Dataset
@@ -34,70 +32,79 @@ The analysis uses the **Brazilian E-Commerce Public Dataset by Olist**, availabl
 
 The SQL analysis is organized into five sections:
 
-1. **Revenue Analysis**
-   - Monthly revenue trends
-   - Revenue growth
-   - Cumulative revenue
-   - Sales performance
+### 1. Revenue Analysis
 
-2. **Product Analysis**
-   - Category-level revenue
-   - Top-performing categories
-   - Product performance
-
-3. **Customer Analysis**
-   - Customer distribution
-   - Customer type analysis
-   - State-wise customer analysis
-   - Customer purchasing behavior
-
-4. **Delivery & Satisfaction**
-   - Delivery performance
-   - Delivery status
-   - Review scores
-   - Relationship between delivery and customer satisfaction
-
-5. **Advanced Analytics**
-   - CTE-based analysis
-   - Window functions
-   - Ranking
-   - Growth and comparative analysis
-
-## Python EDA
-
-Python was used to clean, explore and visualize the analytical results using Pandas, Matplotlib and Seaborn.
-
-Key analyses include:
-
-- Monthly revenue
-- Category revenue
-- Payment methods
-- Review scores
-- Delivery performance
-
-## Power BI Dashboard
-
-The Power BI dashboard contains five analytical sections:
-
-### 1. Revenue Overview
-
-Overall sales and revenue performance.
+- Monthly revenue trends
+- Revenue growth
+- Cumulative revenue
+- Sales performance
 
 ### 2. Product Analysis
 
-Category-level and product-level performance.
+- Category-level revenue
+- Top-performing categories
+- Product performance
 
-### 3. Customer Insights
+### 3. Customer Analysis
 
-Customer distribution and purchasing behavior.
+- Customer distribution
+- Customer type analysis
+- State-wise customer analysis
+- Customer purchasing behavior
 
 ### 4. Delivery & Satisfaction
 
-Delivery performance and customer review analysis.
+- Delivery performance
+- Delivery status
+- Review scores
+- Relationship between delivery and customer satisfaction
 
-### 5. Growth Trends
+### 5. Advanced Analytics
 
-Revenue growth and time-based performance analysis.
+- CTE-based analysis
+- Window functions
+- Ranking
+- Growth and comparative analysis
+
+## Python EDA
+
+Python was used to explore and visualize the dataset using Pandas, Matplotlib, and Seaborn.
+
+### Visualizations
+
+![Monthly Revenue](plot1_monthly_revenue.png)
+
+![Category Revenue](plot2_category_revenue.png)
+
+![Payment Types](plot3_payment_types.png)
+
+![Review Scores](plot4_review_scores.png)
+
+![Delivery Analysis](plot5_delivery_analysis.png)
+
+## Power BI Dashboard
+
+The Power BI dashboard contains five analytical sections covering revenue, products, customers, delivery satisfaction, and growth trends.
+
+### Revenue Overview
+
+![Revenue Overview](page1_revenue_overview.png)
+
+### Product Analysis
+
+![Product Analysis](page2_product_analysis.png)
+
+### Customer Insights
+
+![Customer Insights](page3_customer_insights.png)
+
+### Delivery & Satisfaction
+
+![Delivery Satisfaction](page4_delivery_satisfaction.png)
+
+### Growth Trends
+
+![Growth Trends](page5_growth_trends.png)
 
 ## Key Business Insights
 
@@ -129,7 +136,6 @@ E-commerce-Sales-Data-Analysis/
 ├── payment_types.csv
 ├── review_scores.csv
 └── top_sellers.csv
-
 ## Author
 Devanshu Kumar
 
