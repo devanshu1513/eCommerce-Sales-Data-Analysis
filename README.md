@@ -1,76 +1,139 @@
 # eCommerce Sales Data Analysis
 
+# E-commerce Sales Data Analysis
+
 ## SQL + Python + Power BI
 
-## Project Overview
+An end-to-end e-commerce data analysis project using SQL, Python, and Power BI to analyze sales performance, customer behavior, product categories, payment methods, and delivery satisfaction.
 
-End-to-end e-commerce analytics project
-analyzing 99K orders worth R$16M revenue
-using MySQL, Python and Power BI.
+## Project Objectives
 
-## Tools Used
+- Analyze overall revenue and sales trends
+- Identify high-performing product categories
+- Understand customer purchasing behavior
+- Analyze payment methods and order patterns
+- Evaluate delivery performance and customer satisfaction
+- Identify growth trends and business opportunities
 
-- MySQL — 25 complex SQL queries
-- Python — EDA with Pandas, Matplotlib, Seaborn
-- Power BI — 5 page interactive dashboard
+## Tools & Technologies
+
+- **MySQL** — SQL analysis, joins, aggregations, CTEs and window functions
+- **Python** — Pandas, NumPy, Matplotlib and Seaborn
+- **Power BI** — Interactive dashboard and business reporting
+- **Jupyter Notebook** — Exploratory data analysis
 
 ## Dataset
 
-- Source: Olist Brazilian E-Commerce (Kaggle)
+The analysis uses the **Brazilian E-Commerce Public Dataset by Olist**, available through Kaggle.
+
 - Orders: 99,440
-- Revenue: R$16,008,872
-- Period: 2016 — 2018
+- Period: 2016–2018
+- Dataset: Olist Brazilian E-Commerce Dataset
 
-## Key Findings
+## SQL Analysis
 
-- Top Category: Bed & Bath
-- Peak Month: November 2017 (Black Friday)
-- On Time Delivery: 91.89%
-- Avg Review Score: 4.09/5
-- Customer LTV: R$159.86
-- Top Payment: Credit Card (78%)
-- Top State: São Paulo
+The SQL analysis is organized into five sections:
 
-## Business Recommendations
+1. **Revenue Analysis**
+   - Monthly revenue trends
+   - Revenue growth
+   - Cumulative revenue
+   - Sales performance
 
-1. Launch loyalty program — 99% one time buyers
-2. Double marketing budget for Black Friday
-3. Fix January delivery delays
-4. Improve delivery to RR state
-5. Focus inventory on Bed & Bath category
+2. **Product Analysis**
+   - Category-level revenue
+   - Top-performing categories
+   - Product performance
 
-## Python EDA Plots
+3. **Customer Analysis**
+   - Customer distribution
+   - Customer type analysis
+   - State-wise customer analysis
+   - Customer purchasing behavior
 
-![Monthly Revenue](plot1_monthly_revenue.png)
-![Category Revenue](plot2_category_revenue.png)
-![Payment Types](plot3_payment_types.png)
-![Review Scores](plot4_review_scores.png)
-![Delivery Analysis](plot5_delivery_analysis.png)
+4. **Delivery & Satisfaction**
+   - Delivery performance
+   - Delivery status
+   - Review scores
+   - Relationship between delivery and customer satisfaction
 
-## Dashboard Screenshots
+5. **Advanced Analytics**
+   - CTE-based analysis
+   - Window functions
+   - Ranking
+   - Growth and comparative analysis
 
-### Revenue overview
+## Python EDA
 
-![revenue_overview](page1_revenue_overview.png)
+Python was used to clean, explore and visualize the analytical results using Pandas, Matplotlib and Seaborn.
 
-### Product analysis
+Key analyses include:
 
-![product_analysis](page2_product_analysis.png)
+- Monthly revenue
+- Category revenue
+- Payment methods
+- Review scores
+- Delivery performance
 
-### Customer insights
+## Power BI Dashboard
 
-![customer_insights](page3_customer_insights.png)
+The Power BI dashboard contains five analytical sections:
 
-### Delivery Satisfaction
+### 1. Revenue Overview
 
-![delivery_satisfaction](page4_delivery_satisfaction.png)
+Overall sales and revenue performance.
 
-### Growth Trends
+### 2. Product Analysis
 
-![growth_trends](page5_growth_trends.png)
+Category-level and product-level performance.
+
+### 3. Customer Insights
+
+Customer distribution and purchasing behavior.
+
+### 4. Delivery & Satisfaction
+
+Delivery performance and customer review analysis.
+
+### 5. Growth Trends
+
+Revenue growth and time-based performance analysis.
+
+## Key Business Insights
+
+- Bed & Bath was among the highest-revenue product categories.
+- November 2017 recorded a significant revenue peak.
+- Credit cards represented the dominant payment method.
+- São Paulo had the largest customer base among Brazilian states.
+- Delivery performance and customer reviews provide useful indicators of customer satisfaction.
+
+## Project Structure
+
+```text
+E-commerce-Sales-Data-Analysis/
+│
+├── 01_revenue_analysis.sql
+├── 02_product_analysis.sql
+├── 03_customer_analysis.sql
+├── 04_delivery_satisfaction.sql
+├── 05_advanced_analytics.sql
+│
+├── olist_eda.ipynb
+│
+├── category_revenue.csv
+├── cumulative_revenue.csv
+├── customer_by_state.csv
+├── customer_type.csv
+├── delivery_status.csv
+├── monthly_revenue.csv
+├── payment_types.csv
+├── review_scores.csv
+└── top_sellers.csv
 
 ## Author
+Devanshu Kumar
 
-**Devanshu**
+B.Tech — Chemical Science and Technology, IIT Patna
 
 - GitHub: github.com/devanshu1513
+```
