@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Tableau temporary files
+*.twbr
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Dataset
+olist/
