@@ -304,23 +304,23 @@ The Power BI dashboard contains five analytical sections covering revenue, produ
 
 ### Revenue Overview
 
-![Revenue Overview](page1_revenue_overview.png)
+![Revenue Overview](powerbi/page1_revenue_overview.png)
 
 ### Product Analysis
 
-![Product Analysis](page2_product_analysis.png)
+![Product Analysis](powerbi/page2_product_analysis.png)
 
 ### Customer Insights
 
-![Customer Insights](page3_customer_insights.png)
+![Customer Insights](powerbi/page3_customer_insights.png)
 
 ### Delivery & Satisfaction
 
-![Delivery Satisfaction](page4_delivery_satisfaction.png)
+![Delivery Satisfaction](powerbi/page4_delivery_satisfaction.png)
 
 ### Growth Trends
 
-![Growth Trends](page5_growth_trends.png)
+![Growth Trends](powerbi/page5_growth_trends.png)
 
 ## Key Business Insights
 
